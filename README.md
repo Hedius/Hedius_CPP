@@ -7,4 +7,5 @@ Used IDE: Microsoft Visual Studio 2015 Enterprise
 Finished Projects: 1-16, 18
 
 17: Not working, zähler zählt nicht runter
+
 18 und 19: delAccount funzt irgendwie nicht
