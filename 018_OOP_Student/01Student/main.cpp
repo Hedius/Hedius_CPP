@@ -6,22 +6,21 @@ using namespace std;
 
 int main(int argc, const char * argv[]) {
 
-	Student flo("Flo", 70.0);
-	Student kuban("KLein Eric", 60.0);
-	Student wappla("Bernd Chang", 45.0);
-	cout << flo.toString() << endl;
-	cout << kuban.toString() << endl;
-	cout << wappla.toString() << endl;
+	Student flo("Flo", 75.0);
+	Student kuban("KEV", 60.0);
+	Student flexx("Flexx", 45.0);
+	
 
-	schoolclass schoolclass("4+5AHEL");
+	schoolclass schoolclass("4AHEL");
 	cout << schoolclass.toString() << endl;
 
 	schoolclass.add(flo);
 	schoolclass.add(kuban);
-	schoolclass.add(wappla);
-	cout << schoolclass.toString() << endl;
+	schoolclass.add(flexx);
 	// print class name and all associated students
-	//cout << schoolclass.toString() << endl;
+	cout << schoolclass.toString() << endl;
+	
+	
 
 
 	Student massiest = schoolclass.getMassiest();

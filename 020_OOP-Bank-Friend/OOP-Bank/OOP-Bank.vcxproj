@@ -19,10 +19,11 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{E3824D5C-8357-4BD4-B161-731671CACD97}</ProjectGuid>
+    <ProjectGuid>{08408F8B-42D4-43D2-90FA-3F309B90345A}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <RootNamespace>Student</RootNamespace>
+    <RootNamespace>OOPBank</RootNamespace>
     <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
+    <ProjectName>020_OOP-Bank-Friend</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -145,16 +146,16 @@
     <Text Include="ReadMe.txt" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="schoolclass.h" />
+    <ClInclude Include="account.h" />
+    <ClInclude Include="bank.h" />
     <ClInclude Include="stdafx.h" />
-    <ClInclude Include="student.h" />
     <ClInclude Include="targetver.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="schoolclass.cpp" />
+    <ClCompile Include="account.cpp" />
+    <ClCompile Include="bank.cpp" />
+    <ClCompile Include="OOP-Bank-Friend.cpp" />
     <ClCompile Include="stdafx.cpp" />
-    <ClCompile Include="student.cpp" />
-    <ClCompile Include="Student1.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

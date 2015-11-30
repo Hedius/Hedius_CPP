@@ -1,17 +1,18 @@
 #include <iostream>
 using namespace std;
 
-#include "Bank.h"
-#include "Account.h"
+#include "bank.h"
+#include "account.h"
 
-int main()
-{
+int main() {
 
-	Bank myB(" Derler Unlimited");
 
-	Account a1("Derlmann", 100000.0);
-	Account a2("Mangelberger", 12000.0);
-	Account a3("Lenzi", 11000.0);
+	Bank myB("Zinger Unlimited");
+
+
+	Account a1("Anton Hofmann", 1000.0);
+	Account a2("Beta Hofmann", 1000.0);
+	Account a3("Gamma Hofmann", 1000.0);
 
 	myB.addAccount(a1);
 	myB.addAccount(a2);
@@ -24,7 +25,7 @@ int main()
 	cout << "The Bank: AFTER calculating the charges *********" << endl;
 	cout << myB.toString() << endl;
 
-	myB.addInterest(1.0);
+	myB.addInterest(5.0);
 	cout << "The Bank: AFTER adding the interest *********" << endl;
 	cout << myB.toString() << endl;
 
@@ -32,7 +33,7 @@ int main()
 	cout << "The Bank: AFTER deleting a3 (Gamma Hofmann) *********" << endl;
 	cout << myB.toString() << endl << endl;
 
-	return 0;
+
 }
 
 /*Account:

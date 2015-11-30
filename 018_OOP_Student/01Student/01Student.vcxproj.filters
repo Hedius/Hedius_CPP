@@ -38,10 +38,10 @@
     <ClCompile Include="schoolclass.cpp">
       <Filter>Quelldateien</Filter>
     </ClCompile>
-    <ClCompile Include="Student1.cpp">
+    <ClCompile Include="student.cpp">
       <Filter>Quelldateien</Filter>
     </ClCompile>
-    <ClCompile Include="student.cpp">
+    <ClCompile Include="main.cpp">
       <Filter>Quelldateien</Filter>
     </ClCompile>
   </ItemGroup>

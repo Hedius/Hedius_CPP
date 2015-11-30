@@ -19,10 +19,11 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{D75D51D8-3EB3-4B15-A7F1-76C874A4811E}</ProjectGuid>
+    <ProjectGuid>{08408F8B-42D4-43D2-90FA-3F309B90345A}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <RootNamespace>Bank</RootNamespace>
+    <RootNamespace>OOPBank</RootNamespace>
     <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
+    <ProjectName>019_OOP-Bank</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -145,12 +146,15 @@
     <Text Include="ReadMe.txt" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="account.h" />
     <ClInclude Include="bank.h" />
     <ClInclude Include="stdafx.h" />
     <ClInclude Include="targetver.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Bank1.cpp" />
+    <ClCompile Include="account.cpp" />
+    <ClCompile Include="bank.cpp" />
+    <ClCompile Include="OOP-Bank.cpp" />
     <ClCompile Include="stdafx.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
