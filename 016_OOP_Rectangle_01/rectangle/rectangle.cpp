@@ -1,5 +1,5 @@
 // rectangle.cpp : Definiert den Einstiegspunkt für die Konsolenanwendung.
-//
+//READ THE README
 
 #include "stdafx.h"
 #include <iostream>

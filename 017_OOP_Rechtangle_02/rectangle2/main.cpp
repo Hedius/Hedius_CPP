@@ -10,7 +10,7 @@ using namespace std;
 
 int main()
 {
-
+		
 	Rectangle meadow;
 	Rectangle forest(20, 5);
 

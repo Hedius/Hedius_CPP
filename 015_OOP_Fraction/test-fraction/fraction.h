@@ -12,9 +12,9 @@ using namespace std;
 class Fraction {
 	
 private:
-		//private data members
-		double nominator_;
-		double denominator_;
+	//private data members
+	double nominator_;
+	double denominator_;
 public:
 	//cons, destr
 	Fraction(double nom=1.0, double denom=1.0);
