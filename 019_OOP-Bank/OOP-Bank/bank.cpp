@@ -6,11 +6,12 @@ Bank::Bank(string name) {
 	name_ = name;
 }
 
-Bank::~Bank() {
-	for (int i = 0; i < accounts_.size(); i++) {
-	//	delete(accounts_[i]);
+/*Bank::~Bank() {
+	for (int i = 1; i < accounts_.size()-1; i++) {
+		delete accounts_[i]; // LOL XD ROFL
+	
 	}
-}
+}*/
 
 string Bank::toString() const {
 	ostringstream os;
@@ -54,7 +55,6 @@ void Bank::delAccount(Account& account)
 	vector<Account*>::iterator it;
 	for (it = accounts_.begin(); it != accounts_.end();it++) {
 		if ((*it) == &account) {
-			delete(*it);
 			accounts_.erase(it);
 			return;
 		}

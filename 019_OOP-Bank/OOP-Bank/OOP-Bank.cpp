@@ -10,9 +10,9 @@ int main() {
 	Bank myB("Zinger Unlimited");
 
 
-	Account a1("Anton Hofmann", 1000.0);
-	Account a2("Beta Hofmann", 1000.0);
-	Account a3("Gamma Hofmann", 1000.0);
+	Account a1("Alpha Zinger", 1000.0);
+	Account a2("Beta Zinger", 1000.0);
+	Account a3("Gamma Zinger", 1000.0);
 
 	myB.addAccount(a1);
 	myB.addAccount(a2);
@@ -29,11 +29,11 @@ int main() {
 	cout << "The Bank: AFTER adding the interest *********" << endl;
 	cout << myB.toString() << endl;
 
-//	myB.delAccount(a3);
-	cout << "The Bank: AFTER deleting a3 (Gamma Hofmann) *********" << endl;
+	myB.delAccount(a3);
+	cout << "The Bank: AFTER deleting a3 (Gamma Zinger) *********" << endl;
 	cout << myB.toString() << endl << endl;
-
-
+	
+	return 0;
 }
 
 /*Account:

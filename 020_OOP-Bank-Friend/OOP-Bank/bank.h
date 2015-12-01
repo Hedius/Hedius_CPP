@@ -16,6 +16,7 @@ public:
 	void charges(double d);
 	void addInterest(double d);
 	void delAccount(string owner);
+	void delAccount(Account& account);
 	Account& getAccount(int number);
 	Account& getMaxAccount();
 	double getStandardDeviation();

@@ -88,10 +88,10 @@ Account& Bank::getAccount(int number) {
 }
 
 Bank::~Bank() {
-	for (int i = 0;i < accounts_.size();i++)
+	for (int i = 0; i < accounts_.size(); i++) {
 		delete accounts_[i];
-}
-
+	}
+		}
 
 Account& Bank::getMaxAccount(){
 	vector<Account*>::iterator it;
