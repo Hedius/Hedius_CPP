@@ -11,7 +11,7 @@ int main() {
 
 	cout << "The value of amount is " << amount << '.' << endl;
 
-	//fromatted output
+	//formatted output
 	cout << dec << amount << ' ';
 	cout << oct << amount << ' ';
 	cout << hex << amount << endl;
