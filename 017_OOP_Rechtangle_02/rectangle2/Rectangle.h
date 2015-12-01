@@ -9,11 +9,13 @@ private:
 	int length;
 	int width;
 public:
+	~Rectangle();
 	Rectangle(int l = 1, int w = 1);
 	Rectangle(const Rectangle& other);
-
-
 	Rectangle getMaxRect(const Rectangle& other);
+
+
+	
 
 	string toString()const;
 

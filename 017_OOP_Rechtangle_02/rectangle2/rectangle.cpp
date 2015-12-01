@@ -39,3 +39,8 @@ string Rectangle::toString() const
 int Rectangle::getCount() {
 	return count_;
 }
+
+Rectangle::~Rectangle() {
+	count_--;
+	//cout << "DESTRO" << endl;
+}
