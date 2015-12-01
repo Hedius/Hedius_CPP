@@ -8,7 +8,7 @@ Bank::Bank(string name) {
 
 Bank::~Bank() {
 	for (int i = 0; i < accounts_.size(); i++) {
-		delete(accounts_[i]);
+	//	delete(accounts_[i]);
 	}
 }
 

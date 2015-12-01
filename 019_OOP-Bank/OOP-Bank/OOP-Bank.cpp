@@ -29,7 +29,7 @@ int main() {
 	cout << "The Bank: AFTER adding the interest *********" << endl;
 	cout << myB.toString() << endl;
 
-	myB.delAccount(a3);
+//	myB.delAccount(a3);
 	cout << "The Bank: AFTER deleting a3 (Gamma Hofmann) *********" << endl;
 	cout << myB.toString() << endl << endl;
 
